@@ -16,7 +16,7 @@ export default function Timeline() {
 
   return (
     <section id="parcours" ref={containerRef} className="py-20 bg-black text-white relative">
-      <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+      <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-2 pt-14 gap-16">
         
         {/* Colonne Gauche : Timeline */}
         <div>
