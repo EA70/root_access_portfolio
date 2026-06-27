@@ -1,0 +1,12 @@
+{
+  "Navbar": {
+    "parcours": "PARCOURS",
+    "certifs": "CERTIFS",
+    "contact": "CONTACT"
+  },
+  "Hero": {
+    "role": "Ingénieur en Cybersécurité",
+    "title_1": "DÉFENSE &",
+    "title_2": "INTELLIGENCE"
+  }
+}
