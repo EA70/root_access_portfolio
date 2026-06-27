@@ -16,9 +16,9 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 border-b border-green-900/50 bg-black/80 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-green-500 font-bold text-xl tracking-tighter font-mono">
-          &gt; ROOT_ACCESS
-        </div>
+        <Link href="/" className="text-green-500 font-bold text-xl tracking-tighter font-mono">
+          &gt; Clément Anguandia
+        </Link>
 
         {/* Menu Desktop */}
         <div className="hidden md:flex space-x-8 text-sm font-medium text-slate-400">

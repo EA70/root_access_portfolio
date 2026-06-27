@@ -29,15 +29,14 @@ export default function Hero() {
           Ingénieur en Cybersécurité
         </h2>
         
-        <h1 className="text-4xl sm:text-6xl md:text-8xl font-black text-white tracking-tighter leading-[0.9]">
-          DÉFENSE &<br /> 
+        <h1 className="text-2xl sm:text-6xl md:text-8xl font-black text-white tracking-tighter leading-[0.9]">
+          WEB PENETRATION TESTER &<br /> 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-700">
             INTELLIGENCE
           </span>
         </h1>
         
         <p className="max-w-sm md:max-w-md mx-auto text-slate-400 font-mono text-sm md:text-base px-2">
-          Analyste système, pentester & passionné par l'intégrité des infrastructures critiques.
         </p>
       </motion.div>
     </section>
