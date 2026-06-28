@@ -12,16 +12,14 @@
   },
 
   "Hero": {
-    "subtitle": "Ingénieur en Cybersécurité",
-    "description": "Spécialiste en audit d'infrastructures et sécurité offensive.",
+    "subtitle": "INGÉNIEUR EN SÉCURITÉ OFFENSIVE",
+    "description": "Web Application Penetration Testing | Purple Teaming | Red Team Operations | Web Penetration Testing | Active Directory Penetration Testing | Mobile Penetration Testing (.IPA & .APK) | Thin & Thick Client Penetration Testing | Network & Internal Penetration Testing | External Infrastructure Penetration Testing | HackerView | Research & Development",
     "roles": [
-      "TESTEUR D'INTRUSION WEB",
-      "TESTEUR D'INTRUSION ACTIVE DIRECTORY",
-      "TESTEUR D'INTRUSION INTERNE & EXTERNE",
-      "TESTEUR D'INTRUSION MOBILE (ANDROID & IOS)",
-      "PURPLE TEAMER",
-      "RED TEAMER",
-      "DÉVELOPPEUR DE MALWARE (ASPIRANT)"
+      "HACKER ÉTHIQUE",
+      "TESTEUR D'INTRUSION",
+      "ÉQUIPE ROUGE",
+      "ÉQUIPE VIOLETTE",
+      "DÉVELOPPEUR DE MALWARE"
     ]
   },
 

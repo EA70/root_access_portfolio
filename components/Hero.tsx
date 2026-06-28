@@ -73,6 +73,7 @@ export default function Hero() {
         </div>
         
         <p className="max-w-sm md:max-w-md mx-auto text-slate-400 font-mono text-sm md:text-base px-2">
+          {t('description')}
         </p>
       </motion.div>
     </section>
