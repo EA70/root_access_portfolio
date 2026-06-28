@@ -33,7 +33,7 @@ export async function generateMetadata(
   };
 }
 
-// 2. Correction de LocaleLayout : params doit être une Promise
+ 
 export default async function LocaleLayout({
   children,
   params
