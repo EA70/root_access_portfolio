@@ -91,5 +91,21 @@
       },
       "submit": "ENVOYER VOTRE MESSAGE"
     }
+  }, 
+  "Skills": {
+    "title": "Compétences Techniques",
+    "list": [
+      "Web Application Penetration Testing",
+      "Purple Teaming",
+      "Red Team Operations",
+      "Web Penetration Testing",
+      "Active Directory Penetration Testing",
+      "Mobile Penetration Testing (.IPA & .APK)",
+      "Thin & Thick client Penetration Testing",
+      "Network & Internal Penetration Testing",
+      "External Infrastructure Penetration Testing",
+      "HackerView",
+      "Research & Development"
+    ]
   }
 }
