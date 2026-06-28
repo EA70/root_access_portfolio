@@ -17,14 +17,11 @@ export default function Footer() {
           <Link href="#" className="hover:text-green-500 transition-colors">
             LINKEDIN
           </Link>
-          <Link href="#" className="hover:text-green-500 transition-colors">
-            PGP_KEY
-          </Link>
         </div>
 
         {/* Copyright */}
         <div className="text-slate-700 font-mono text-[10px]">
-          © {new Date().getFullYear()} // SECURE_ARCH_PROTOCOL
+          © {new Date().getFullYear()} CLEMENT ANGUANDIA
         </div>
       </div>
     </footer>

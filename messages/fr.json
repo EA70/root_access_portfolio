@@ -1,12 +1,97 @@
 {
+  "Home": {
+    "title": "Bienvenue"
+  },
+
   "Navbar": {
     "parcours": "PARCOURS",
     "certifs": "CERTIFS",
+    "blog": "BLOG",
+    "about": "APROPOS",
     "contact": "CONTACT"
   },
+
   "Hero": {
-    "role": "Ingénieur en Cybersécurité",
-    "title_1": "DÉFENSE &",
-    "title_2": "INTELLIGENCE"
+    "subtitle": "Ingénieur en Cybersécurité",
+    "description": "Spécialiste en audit d'infrastructures et sécurité offensive.",
+    "roles": [
+      "TESTEUR D'INTRUSION WEB",
+      "TESTEUR D'INTRUSION ACTIVE DIRECTORY",
+      "TESTEUR D'INTRUSION INTERNE & EXTERNE",
+      "TESTEUR D'INTRUSION MOBILE (ANDROID & IOS)",
+      "PURPLE TEAMER",
+      "RED TEAMER",
+      "DÉVELOPPEUR DE MALWARE (ASPIRANT)"
+    ]
+  },
+
+  "About": {
+    "title": "À PROPOS",
+    "paragraphs": [
+      {
+        "label": "[INFO]",
+        "text": "Initialisation du profil... Ma rigueur de travail repose sur le principe du Zero Trust. Chaque ligne de code et chaque architecture réseau sont auditées afin de garantir une résilience maximale face aux menaces émergentes."
+      },
+      {
+        "label": "[WARN]",
+        "text": "La complaisance est la faille la plus critique d'un système. Mon approche combine une veille technologique constante et une discipline de fer dans le respect des protocoles de sécurité."
+      },
+      {
+        "label": "[SUCCESS]",
+        "text": "Mon objectif est de transformer les infrastructures vulnérables en bastions impénétrables avec une précision chirurgicale."
+      }
+    ]
+  },
+
+  "Timeline": {
+    "title": "PARCOURS_PROFESSIONNEL",
+    "events": [
+      {
+        "year": "2026",
+        "title": "Ingénieur Sécurité Senior",
+        "desc": "Architecture de systèmes critiques."
+      },
+      {
+        "year": "2024",
+        "title": "Certification CISSP",
+        "desc": "Expertise en gestion de la sécurité."
+      },
+      {
+        "year": "2022",
+        "title": "Pentester Junior",
+        "desc": "Audit de vulnérabilités et tests d'intrusion."
+      }
+    ],
+    "cta": {
+      "title": "Besoin d'une expertise ?",
+      "description": "Consultez mon CV complet pour découvrir mon parcours détaillé et mes compétences techniques.",
+      "button": "TÉLÉCHARGER_CV",
+      "link": "/cv.pdf"
+    }
+  },
+
+  "Certifications": {
+    "title": "CERTIFICATIONS_OFFICIELLES",
+    "cta": "TÉLÉCHARGER_CV",
+    "ctaDescription": "Consultez mon CV complet pour plus de détails."
+  },
+
+  "Contact": {
+    "title": "CONTACTEZ-MOI",
+    "form": {
+      "name": {
+        "label": "NOM",
+        "placeholder": "Votre nom..."
+      },
+      "email": {
+        "label": "EMAIL",
+        "placeholder": "Votre email..."
+      },
+      "message": {
+        "label": "MESSAGE",
+        "placeholder": "Votre message..."
+      },
+      "submit": "ENVOYER VOTRE MESSAGE"
+    }
   }
 }

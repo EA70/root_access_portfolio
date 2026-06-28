@@ -1,12 +1,95 @@
 {
+  "Home": {
+    "title": "Welcome"
+  },
+
   "Navbar": {
-    "parcours": "EXPERIENCE",
+    "parcours": "CAREER",
+        "blog" : "BLOG",
     "certifs": "CERTIFICATIONS",
+    "about": "ABOUT",
     "contact": "CONTACT"
   },
+
   "Hero": {
-    "role": "Cybersecurity Engineer",
-    "title_1": "DEFENSE &",
-    "title_2": "INTELLIGENCE"
+    "subtitle": "Cybersecurity Engineer",
+    "description": "Specialist in infrastructure auditing and offensive security.",
+    "roles": [
+      "WEB PENETRATION TESTER",
+      "ACTIVE DIRECTORY TESTER",
+      "INTERNAL & EXTERNAL PENETRATION TESTER",
+      "MOBILE PENETRATION TESTER (ANDROID & IOS)",
+      "PURPLE TEAMER",
+      "RED TEAMER",
+      "ASPIRING MALWARE DEVELOPER"
+    ]
+  },
+
+"About": {
+  "title": "ABOUT",
+  "paragraphs": [
+    {
+      "label": "[INFO]",
+      "text": "Profile initialization... My work methodology is based on the Zero Trust principle. Every line of code and every network architecture is assessed to ensure maximum resilience against emerging threats."
+    },
+    {
+      "label": "[WARN]",
+      "text": "Complacency is the most critical vulnerability of any system. My approach combines continuous technology monitoring with rigorous adherence to security best practices."
+    },
+    {
+      "label": "[SUCCESS]",
+      "text": "My objective is to transform vulnerable infrastructures into resilient and secure strongholds with surgical precision."
+    }
+  ]
+},
+
+"Timeline": {
+  "title": "PROFESSIONAL_CAREER",
+  "events": [
+    {
+      "year": "2026",
+      "title": "Senior Security Engineer",
+      "desc": "Critical systems architecture."
+    },
+    {
+      "year": "2024",
+      "title": "CISSP Certification",
+      "desc": "Security management expertise."
+    },
+    {
+      "year": "2022",
+      "title": "Junior Pentester",
+      "desc": "Vulnerability assessment and penetration testing."
+    }
+  ],
+  "cta": {
+    "title": "Need expertise?",
+    "description": "Download my full CV to explore my experience and technical skills.",
+    "button": "DOWNLOAD_CV",
+    "link": "/cv.pdf"
   }
+},
+
+  "Certifications": {
+    "title": "OFFICIAL_CERTIFICATIONS"
+  },
+
+"Contact": {
+  "title": "CONTACT ME",
+  "form": {
+    "name": {
+      "label": "NAME",
+      "placeholder": "Your name..."
+    },
+    "email": {
+      "label": "EMAIL",
+      "placeholder": "Your email..."
+    },
+    "message": {
+      "label": "MESSAGE",
+      "placeholder": "Your message..."
+    },
+    "submit": "SEND MESSAGE"
+  }
+}
 }

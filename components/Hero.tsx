@@ -1,22 +1,19 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';  
 
 export default function Hero() {
+
+  const t = useTranslations('Hero');
+  const messages = useMessages() as any;
+  const roles = messages.Hero.roles as string[];
+
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
-  const roles = [
-    "WEB PENETRATION TESTER",
-    "ACTIVE DIRECTORY PENETRATION TESTER",
-    "INTERNAL & EXTERNAL PENETRATION TESTER",
-    "MOBILE <ANDROID & IOS> PENETRATION TESTER",
-    "PURPLE TEAMER",
-    "READ TEAMER",
-    "ASPIRANT MALWARE DEVELOPPER"
-  ];
+
 
   useEffect(() => {
     const currentRole = roles[index];
@@ -38,13 +35,13 @@ export default function Hero() {
     }, typingSpeed);
 
     return () => clearTimeout(timeout);
-  }, [text, isDeleting, index]);
+  }, [text, isDeleting, index, roles]);
 
   return (
     <section 
       className="min-h-screen flex flex-col justify-center items-center bg-black px-6 relative overflow-hidden"
       style={{
-        backgroundImage: "url('/bgg.jpg')",
+        backgroundImage: "url('/bgc.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -59,7 +56,7 @@ export default function Hero() {
         className="text-center w-full max-w-5xl relative z-10 space-y-6"
       >
         <h2 className="text-green-500 font-mono pt-7 text-xs md:text-sm uppercase tracking-[0.2em] md:tracking-[0.4em]">
-          Ingénieur en Cybersécurité
+          {t('subtitle')}
         </h2>
         
         <div className="min-h-[120px] md:min-h-[160px] flex items-center justify-center">

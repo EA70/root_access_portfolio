@@ -1,0 +1,97 @@
+{
+  "Home": {
+    "title": "Willkommen"
+  },
+
+  "Navbar": {
+    "parcours": "KARRIERE",
+    "blog": "BLOG",
+    "certifs": "ZERTIFIKATE",
+    "about": "ÜBER MICH",
+    "contact": "KONTAKT"
+  },
+
+  "Hero": {
+    "subtitle": "Cybersecurity-Ingenieur",
+    "description": "Spezialist für Infrastruktur-Audits und offensive Sicherheit.",
+    "roles": [
+      "WEB-PENETRATIONSTESTER",
+      "ACTIVE DIRECTORY PENETRATIONSTESTER",
+      "INTERNE & EXTERNE PENETRATIONSTESTS",
+      "MOBILE PENETRATIONSTESTER (ANDROID & IOS)",
+      "PURPLE TEAMER",
+      "RED TEAMER",
+      "ANGEHENDER MALWARE-ENTWICKLER"
+    ]
+  },
+
+  "About": {
+    "title": "ÜBER MICH",
+    "paragraphs": [
+      {
+        "label": "[INFO]",
+        "text": "Profil wird initialisiert... Meine Arbeitsweise basiert auf dem Zero-Trust-Prinzip. Jede Codezeile und jede Netzwerkinfrastruktur wird analysiert, um eine maximale Widerstandsfähigkeit gegen neue Bedrohungen sicherzustellen."
+      },
+      {
+        "label": "[WARN]",
+        "text": "Selbstzufriedenheit ist die kritischste Schwachstelle eines Systems. Mein Ansatz kombiniert kontinuierliche technologische Weiterbildung mit einer strikten Einhaltung von Sicherheitsstandards."
+      },
+      {
+        "label": "[SUCCESS]",
+        "text": "Mein Ziel ist es, anfällige Infrastrukturen mit höchster Präzision in sichere und widerstandsfähige Systeme zu verwandeln."
+      }
+    ]
+  },
+
+  "Timeline": {
+    "title": "BERUFLICHER_WERDEGANG",
+    "events": [
+      {
+        "year": "2026",
+        "title": "Senior Security Engineer",
+        "desc": "Architektur kritischer Systeme."
+      },
+      {
+        "year": "2024",
+        "title": "CISSP Zertifizierung",
+        "desc": "Expertise im Sicherheitsmanagement."
+      },
+      {
+        "year": "2022",
+        "title": "Junior Pentester",
+        "desc": "Schwachstellenanalyse und Penetrationstests."
+      }
+    ],
+    "cta": {
+      "title": "Benötigen Sie Expertise?",
+      "description": "Laden Sie meinen vollständigen Lebenslauf herunter, um meine Erfahrung und Fähigkeiten zu entdecken.",
+      "button": "LEBENSLAUF_DOWNLOADEN",
+      "link": "/cv.pdf"
+    }
+  },
+
+  "Certifications": {
+    "title": "OFFIZIELLE_ZERTIFIKATE",
+    "cta": "LEBENSLAUF_DOWNLOADEN",
+    "ctaDescription": "Sehen Sie meinen vollständigen Lebenslauf für weitere Details."
+  },
+
+  "Contact": {
+    "title": "KONTAKTIEREN SIE MICH",
+    "form": {
+      "name": {
+        "label": "NAME",
+        "placeholder": "Ihr Name..."
+      },
+      "email": {
+        "label": "E-MAIL",
+        "placeholder": "Ihre E-Mail..."
+      },
+      "message": {
+        "label": "NACHRICHT",
+        "placeholder": "Ihre Nachricht..."
+      },
+      "submit": "NACHRICHT SENDEN"
+    }
+  }
+}

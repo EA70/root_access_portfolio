@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { ShieldCheck, Award, Lock } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const certs = [
   { title: "CISSP", org: "(ISC)²", icon: ShieldCheck },
@@ -11,18 +12,20 @@ const certs = [
 ];
 
 export default function Certifications() {
+    const t = useTranslations("Certifications");
+  
+
   return (
     <section id="certifs" className="py-20 bg-black text-white">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-mono text-green-500 mb-12 md:mb-16 break-words leading-tight">
-          &gt; CERTIFICATIONS_OFFICIELLES
+          &gt; {t("title")}
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {certs.map((cert, index) => (
             <motion.div
               key={index}
-              // Animation d'entrée
               initial={{ opacity: 0, y: 30, scale: 0.95 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true }}
