@@ -15,9 +15,11 @@ export default function Navbar() {
 
   // Liste des items avec des clés pour le fichier JSON
   const menuItems = [
-    { name: "parcours", href: "#parcours" },
-    { name: "blog", href: "#blog" },
+    { name: "home", href: "/fr" },
+    { name: "career", href: "#parcours" },
+    { name: "skills", href: "#skills" },
     { name: "certifs", href: "#certifs" },
+    { name: "blog", href: "#blog" },
     { name: "about", href: "#about" },
     { name: "contact", href: "#contact" },
   ];

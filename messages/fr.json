@@ -1,81 +1,124 @@
 {
-  "Home": {
-    "title": "Bienvenue"
-  },
-
   "Navbar": {
-    "parcours": "PARCOURS",
-    "certifs": "CERTIFS",
+    "home": "HOME",
+    "career": "CARRIÈRE",
+    "skills": "COMPÉTENCES",
+    "parcours": "CARRIÈRE",
+    "certifs": "CERTIFICATIONS",
     "blog": "BLOG",
-    "about": "APROPOS",
+    "about": "À PROPOS",
     "contact": "CONTACT"
   },
 
   "Hero": {
-    "subtitle": "INGÉNIEUR EN SÉCURITÉ OFFENSIVE",
-    "description": "Web Application Penetration Testing | Purple Teaming | Red Team Operations | Web Penetration Testing | Active Directory Penetration Testing | Mobile Penetration Testing (.IPA & .APK) | Thin & Thick Client Penetration Testing | Network & Internal Penetration Testing | External Infrastructure Penetration Testing | HackerView | Research & Development",
+    "subtitle": "INGÉNIEUR EN SÉCURITÉ OFFENSIVE CYBER",
     "roles": [
       "HACKER ÉTHIQUE",
       "TESTEUR D'INTRUSION",
-      "ÉQUIPE ROUGE",
-      "ÉQUIPE VIOLETTE",
-      "DÉVELOPPEUR DE MALWARE"
-    ]
-  },
-
-  "About": {
-    "title": "À PROPOS",
-    "paragraphs": [
-      {
-        "label": "[INFO]",
-        "text": "Initialisation du profil... Ma rigueur de travail repose sur le principe du Zero Trust. Chaque ligne de code et chaque architecture réseau sont auditées afin de garantir une résilience maximale face aux menaces émergentes."
-      },
-      {
-        "label": "[WARN]",
-        "text": "La complaisance est la faille la plus critique d'un système. Mon approche combine une veille technologique constante et une discipline de fer dans le respect des protocoles de sécurité."
-      },
-      {
-        "label": "[SUCCESS]",
-        "text": "Mon objectif est de transformer les infrastructures vulnérables en bastions impénétrables avec une précision chirurgicale."
-      }
+      "RED TEAMER",
+      "PURPLE TEAMER",
+      "DÉVELOPPEUR DE MALWARE*"
     ]
   },
 
   "Timeline": {
-    "title": "PARCOURS_PROFESSIONNEL",
+    "title": "EXPÉRIENCE PROFESSIONNELLE",
     "events": [
       {
-        "year": "2026",
-        "title": "Ingénieur Sécurité Senior",
-        "desc": "Architecture de systèmes critiques."
-      },
-      {
         "year": "2024",
-        "title": "Certification CISSP",
-        "desc": "Expertise en gestion de la sécurité."
+        "title": "Ingénieur en sécurité offensive cyber",
+        "desc": "IntelliSec Solutions."
       },
       {
-        "year": "2022",
-        "title": "Pentester Junior",
-        "desc": "Audit de vulnérabilités et tests d'intrusion."
+        "year": "2023",
+        "title": "Stagiaire en cybersécurité",
+        "desc": ""
       }
     ],
     "cta": {
-      "title": "Besoin d'une expertise ?",
-      "description": "Consultez mon CV complet pour découvrir mon parcours détaillé et mes compétences techniques.",
+      "title": "Besoin d'expertise ?",
+      "description": "Téléchargez mon CV complet pour découvrir mon expérience et mes compétences techniques.",
       "button": "TÉLÉCHARGER_CV",
       "link": "/cv.pdf"
     }
   },
 
-  "Certifications": {
-    "title": "CERTIFICATIONS_OFFICIELLES",
-    "cta": "TÉLÉCHARGER_CV",
-    "ctaDescription": "Consultez mon CV complet pour plus de détails."
+  "About": {
+    "title": "À propos",
+    "paragraphs": [
+      {
+        "label": "",
+        "text": "Spécialiste en cybersécurité avec plus de deux ans d'expérience pratique en sécurité offensive et tests d'intrusion. Plus de 80 tests réalisés sur des environnements Web, Active Directory, réseau et mobile."
+      },
+      {
+        "label": "",
+        "text": "Fort esprit pratique combiné à une approche structurée et analytique de la résolution de problèmes. Amélioration continue grâce aux certifications, aux CTF et à un laboratoire personnel."
+      },
+      {
+        "label": "",
+        "text": "Solide expertise des environnements Linux, Windows et cloud, ainsi qu'en évaluation de vulnérabilités."
+      }
+    ],
+    "cta": {
+      "title": "Curriculum Vitae",
+      "description": "Téléchargez mon CV pour une vue détaillée de mon parcours professionnel.",
+      "button": "Télécharger PDF",
+      "link": "/cv-clement-anguandia.pdf"
+    }
+  },
+
+  "Certifs": {
+    "title": "Certifications",
+    "list": [
+      {
+        "name": "OSCP",
+        "full": "Offensive Security Certified Professional",
+        "icon": "offsec"
+      },
+      {
+        "name": "OSEP",
+        "full": "Offensive Security Experienced Penetration Tester",
+        "icon": "offsec"
+      },
+      {
+        "name": "CEH",
+        "full": "Certified Ethical Hacker",
+        "icon": "ec-council"
+      },
+      {
+        "name": "CPTS",
+        "full": "Certified Penetration Tester Specialist",
+        "icon": "hackthebox"
+      },
+      { "name": "CRTO", "full": "Certified Red Team Operator", "icon": "" },
+      { "name": "CRTE", "full": "Certified Red Team Expert", "icon": "" },
+      { "name": "CRTL", "full": "Certified Red Team Leader", "icon": "" },
+      { "name": "CRTM", "full": "Certified Red Team Master", "icon": "" },
+      {
+        "name": "eWPTX",
+        "full": "Web Application Penetration Tester Expert",
+        "icon": "ine"
+      },
+      {
+        "name": "AWS Architect",
+        "full": "AWS Certified Solutions Architect",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "AWS Developer",
+        "full": "AWS Certified Developer – Associate",
+        "icon": "amazonwebservices"
+      },
+      {
+        "name": "RHCE",
+        "full": "Red Hat Certified Engineer",
+        "icon": "redhat"
+      }
+    ]
   },
 
   "Contact": {
-    "title": "CONTACTEZ-MOI",
+    "title": "Contact",
     "form": {
       "name": {
         "label": "NOM",
@@ -89,23 +132,41 @@
         "label": "MESSAGE",
         "placeholder": "Votre message..."
       },
-      "submit": "ENVOYER VOTRE MESSAGE"
+      "submit": "ENVOYER LE MESSAGE"
     }
-  }, 
+  },
+
   "Skills": {
-    "title": "Compétences Techniques",
-    "list": [
-      "Web Application Penetration Testing",
-      "Purple Teaming",
-      "Red Team Operations",
-      "Web Penetration Testing",
-      "Active Directory Penetration Testing",
-      "Mobile Penetration Testing (.IPA & .APK)",
-      "Thin & Thick client Penetration Testing",
-      "Network & Internal Penetration Testing",
-      "External Infrastructure Penetration Testing",
-      "HackerView",
-      "Research & Development"
+    "hard_title": "Compétences techniques",
+    "soft_title": "Compétences personnelles",
+    "hard_data": {
+      "Offensive Security": [
+        "Opérations Red Team",
+        "Opérations Purple Team",
+        "Campagnes de simulation de phishing"
+      ],
+      "Application Security": [
+        "Tests d'intrusion sur applications web",
+        "Tests d'intrusion sur applications mobiles (iOS & Android)",
+        "Tests de sécurité sur clients légers et lourds"
+      ],
+      "Infrastructure Security": [
+        "Évaluations de sécurité Active Directory",
+        "Tests d'intrusion sur réseaux internes",
+        "Tests d'intrusion sur infrastructures externes",
+        "Évaluation et gestion des vulnérabilités"
+      ],
+      "Security Awareness": [
+        "Formations de sensibilisation à la cybersécurité (technique et non technique)"
+      ]
+    },
+    "soft_data": [
+      "Esprit critique et résolution de problèmes",
+      "Analyse structurée et pensée logique",
+      "Grande curiosité et apprentissage autonome",
+      "Communication claire (technique et non technique)",
+      "Travail en équipe efficace",
+      "Capacité à expliquer des concepts complexes simplement"
     ]
   }
 }

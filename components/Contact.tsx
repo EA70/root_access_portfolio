@@ -37,7 +37,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-2xl md:text-3xl font-mono text-green-500 mb-12"
+          className="text-3xl font-black mb-12 text-center text-green-500 font-mono tracking-tighter"
         >
           &gt; {t("title")}
         </motion.h2>

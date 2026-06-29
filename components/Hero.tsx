@@ -55,7 +55,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="text-center w-full max-w-5xl relative z-10 space-y-6"
       >
-        <h2 className="text-green-500 font-mono pt-7 text-xs md:text-sm uppercase tracking-[0.2em] md:tracking-[0.4em]">
+        <h2 className="text-green-500 font-mono pt-7 text-xs md:text-sm uppercase tracking-[0.1em] md:tracking-[0.4em]">
           {t('subtitle')}
         </h2>
         
@@ -73,7 +73,6 @@ export default function Hero() {
         </div>
         
         <p className="max-w-sm md:max-w-md mx-auto text-slate-400 font-mono text-sm md:text-base px-2">
-          {t('description')}
         </p>
       </motion.div>
     </section>
