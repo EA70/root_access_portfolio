@@ -22,7 +22,7 @@ export default function About() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.2 }}
-                className="text-slate-300 leading-relaxed font-mono"
+                className="text-slate-400 leading-relaxed font-mono"
               >
                 {p.text}
               </motion.p>

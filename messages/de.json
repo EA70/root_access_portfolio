@@ -22,7 +22,7 @@
   },
 
   "Timeline": {
-    "title": "BERUFLICHE ERFAHRUNG",
+    "title": "Berufliche Erfharung",
     "events": [
       {
         "year": "2024",
@@ -32,7 +32,7 @@
       {
         "year": "2023",
         "title": "Praktikant im Bereich Cybersicherheit",
-        "desc": ""
+        "desc": "Bank von Tunesien"
       }
     ],
     "cta": {
@@ -133,7 +133,10 @@
         "placeholder": "Ihre Nachricht..."
       },
       "submit": "NACHRICHT SENDEN"
-    }
+    },
+    "messageSucces": "Nachricht erfolgreich gesendet!",
+    "detailsmessage": "Ich werde mich so schnell wie möglich bei Ihnen melden.",
+    "sending": "Wird gesendet..."
   },
 
   "Skills": {
@@ -157,7 +160,7 @@
         "Schwachstellenanalyse und -management"
       ],
       "Security Awareness": [
-        "Cybersecurity-Sensibilisierungstrainings (technisch und nicht technisch)"
+        "Cybersecurity-Sensibilisierung (technisch und nicht technisch)"
       ]
     },
     "soft_data": [

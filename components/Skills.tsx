@@ -30,7 +30,7 @@ export default function Skills() {
           {softData.map((skill: string, index: number) => (
             <motion.div key={skill} initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: index * 0.05 }} className="p-4 border border-zinc-800 bg-zinc-900/30 rounded flex items-center hover:border-green-500/50 transition-colors">
               <span className="text-green-500 mr-3">●</span>
-              <span className="text-slate-300 font-mono text-sm">{skill}</span>
+              <span className="text-slate-400 font-mono text-sm">{skill}</span>
             </motion.div>
           ))}
         </div>

@@ -22,7 +22,7 @@
   },
 
   "Timeline": {
-    "title": "EXPÉRIENCE PROFESSIONNELLE",
+    "title": "Experience professionnelle",
     "events": [
       {
         "year": "2024",
@@ -32,7 +32,7 @@
       {
         "year": "2023",
         "title": "Stagiaire en cybersécurité",
-        "desc": ""
+        "desc": "Banque de Tunisie"
       }
     ],
     "cta": {
@@ -133,7 +133,10 @@
         "placeholder": "Votre message..."
       },
       "submit": "ENVOYER LE MESSAGE"
-    }
+    },
+    "messageSucces": "Message envoyé avec succès !",
+    "detailsmessage": "Je vous répondrai dans les plus brefs délais.",
+    "sending": "Envoi en cours..."
   },
 
   "Skills": {

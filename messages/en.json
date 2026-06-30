@@ -22,7 +22,7 @@
   },
 
   "Timeline": {
-    "title": "PROFESSIONAL EXPERIENCE",
+    "title": "Professional Experience",
     "events": [
       {
         "year": "2024",
@@ -32,7 +32,7 @@
       {
         "year": "2023",
         "title": "CyberSecurity Intern",
-        "desc": " "
+        "desc": "Bank of Tunisia"
       }
     ],
     "cta": {
@@ -129,7 +129,10 @@
         "placeholder": "Your message..."
       },
       "submit": "SEND MESSAGE"
-    }
+    }, 
+    "messageSucces" : "Message sent successfully!",
+    "detailsmessage" : "I will get back to you shortly.",
+    "sending" : "Sending..."
   },
   "Skills": {
     "hard_title": "Hard Skills",
@@ -152,7 +155,7 @@
         "Vulnerability Assessment & Management"
       ],
       "Security Awareness": [
-        "Cybersecurity Awareness Training (Technical & Non-Technical)"
+        "Cybersecurity Awareness (Technical & Non-Technical)"
       ]
     },
     "soft_data": [

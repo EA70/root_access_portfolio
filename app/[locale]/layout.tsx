@@ -10,7 +10,6 @@ export async function generateMetadata(
   : Promise<Metadata> {
   const { locale } = await params;
 
-  // la locale est valide ???
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
@@ -22,15 +21,76 @@ export async function generateMetadata(
   };
 
   const descriptions: Record<string, string> = {
-    fr: "Portfolio de Clement Anguandia...",
-    en: "Portfolio of Clement Anguandia...",
-    de: "Portfolio von Clement Anguandia..."
+    fr: "Portfolio de Clément Anguandia, Spécialiste en Cybersécurité et Tests d'Intrusion. Expert dans la réalisation de pen-tests (Web, AD, Réseaux, Mobile) et l'analyse de vulnérabilités. Orienté vers l'audit de sécurité des systèmes critiques et l'amélioration continue de la posture de défense.",
+    en: "Portfolio of Clément Anguandia, Cybersecurity & Penetration Testing Specialist. Focused on Web, Active Directory, Network, and Mobile application security. Delivering high-quality vulnerability assessments and security testing for complex enterprise infrastructures.",
+    de: "Portfolio von Clément Anguandia, Spezialist für Cybersicherheit und Penetration Testing. Fokus auf Web-, Active Directory-, Netzwerk- und Mobile-Security. Erfahrung in der Durchführung von Schwachstellenanalysen und Sicherheitsüberprüfungen komplexer IT-Infrastrukturen."
   };
 
-  return {
-    title: titles[locale] || titles.fr,
-    description: descriptions[locale] || descriptions.fr
+    const ogLocales: Record<string, string> = {
+    fr: "fr_FR",
+    en: "en_US",
+    de: "de_DE"
   };
+
+  const title = titles[locale] || titles.fr;
+  const description = descriptions[locale] || descriptions.fr;
+
+return {
+    metadataBase: new URL("https://clementsec.com/"),
+    title,
+    description,
+
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        fr: "/fr",
+        en: "/en",
+        de: "/de",
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      locale: ogLocales[locale] || "fr_FR",
+      url: `https://clementsec.com//${locale}`,
+      siteName: "Clement Anguandia",
+      title,
+      description,
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/og-image.png"],
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+      },
+    },
+
+    icons: {
+      icon: "/icon.png",
+      apple: "/apple-touch-icon.png",
+    },
+  };
+
+
+
 }
 
  
@@ -47,7 +107,6 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  // 3. IMPORTANT : Passer explicitement la locale à getMessages
   const messages = await getMessages({ locale });
 
   return (
