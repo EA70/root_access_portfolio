@@ -29,7 +29,7 @@ export default function Certifs() {
   const certs = t.raw("list") as { name: string; full: string; icon: string }[];
 
   return (
-    <section id="certifs" className="py-12 sm:py-16 md:py-20 bg-black text-white px-4 sm:px-6">
+    <section id="certifs" className="py-20 sm:py-16 md:py-32 bg-black text-white px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-black mb-8 sm:mb-12 text-center text-green-500 font-mono tracking-tighter">
           &gt; {t("title")}

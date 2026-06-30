@@ -8,7 +8,7 @@ export default function Skills() {
   const softData = t.raw("soft_data") as string[];
 
   return (
-    <section id="skills" className="py-20 bg-black text-white px-6">
+    <section id="skills" className="py-20 md:py-32 bg-black text-white px-6">
       <div className="max-w-5xl mx-auto">
         
         <h2 className="text-3xl font-black text-center mb-12 text-green-500 font-mono">&gt; {t("hard_title")}</h2>

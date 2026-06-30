@@ -9,7 +9,7 @@ export default function About() {
   const cta = t.raw("cta");
 
   return (
-    <section id="about" className="py-20 bg-black text-white border-b border-green-900/20">
+    <section id="about" className="py-20 bg-black md:py-32 text-white border-b border-green-900/20">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl font-black mb-12 text-center text-green-500 font-mono tracking-tighter">&gt; {t("title")}</h2>
         

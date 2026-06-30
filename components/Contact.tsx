@@ -41,7 +41,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-black text-white">
+    <section id="contact" className="py-20 bg-black md:py-32 text-white">
       <div className="max-w-2xl mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
